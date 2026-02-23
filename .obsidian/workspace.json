@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HLD/Design social media app like FB.md",
+                "file": "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design social media app like FB"
+              "title": "WRT - Minimum number of days to make island disconnect"
             }
           }
         ]
@@ -185,8 +185,14 @@
   },
   "active": "df884a56c7c9dcbc",
   "lastOpenFiles": [
-    "LLD/Design Parking lot.md",
+    "WhatsApp Image 2026-02-23 at 10.45.52 AM.jpeg",
+    "WhatsApp Image 2026-02-23 at 10.45.35 AM.jpeg",
+    "WhatsApp Image 2026-02-23 at 10.45.53 AM.jpeg",
+    "DSA Template.md",
+    "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
     "HLD/Design social media app like FB.md",
+    "README.md",
+    "LLD/Design Parking lot.md",
     "LLD/Design Ride Sharing System.md",
     "HLD/Design Caching System.md",
     "HLD/Design Ride Sharing System.md",
@@ -198,7 +204,6 @@
     "WhatsApp Image 2026-02-22 at 6.14.23 PM.jpeg",
     "WhatsApp Image 2026-02-22 at 6.14.22 PM (1).jpeg",
     "WhatsApp Image 2026-02-22 at 6.14.22 PM.jpeg",
-    "DSA Template.md",
     "dp/2D DP/WRT- Max Square Possible.md",
     "HLD",
     "stack/Max Frequency Stack.md",
@@ -214,15 +219,10 @@
     "WhatsApp Image 2026-02-21 at 3.57.13 PM.jpeg",
     "arrays/WRT - Find in row wise and col wise sorted matrix.md",
     "arrays/WRT - Print spiral order.md",
-    "WhatsApp Image 2026-02-21 at 12.38.42 PM (1).jpeg",
-    "WhatsApp Image 2026-02-21 at 12.38.42 PM.jpeg",
     "arrays/Untitled 1.md",
     "tree/BST/WRT - Recover BST.md",
     "linkedlist/WRT - Sort List.md",
     "stack/WRT - Max and min.md",
-    "dp/knapsack/WRT - 01 Knapsack.md",
-    "arrays/WRT - First Missing Positive.md",
-    "arrays/Shuffle Array.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "tree/BST",
