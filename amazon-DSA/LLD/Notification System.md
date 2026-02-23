@@ -1,0 +1,7 @@
+- Scalable Notification System supporting 1000+ notification/ second with client- subscriber relationships, severity levels and multiple notification channels(sms, email)
+- Requirements gathering and Scope definition
+- Core entities
+- Class diagram
+- Relationship
+- Encapsulation and interfaces
+- Blocking Queue and thread pool scaling
