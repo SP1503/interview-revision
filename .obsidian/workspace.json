@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
+                "file": "backtracking/Word Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WRT - Minimum number of days to make island disconnect"
+              "title": "Word Search"
             }
           }
         ]
@@ -185,11 +185,13 @@
   },
   "active": "df884a56c7c9dcbc",
   "lastOpenFiles": [
+    "WhatsApp Image 2026-02-23 at 11.19.53 AM.jpeg",
+    "DSA Template.md",
+    "backtracking/Word Search.md",
+    "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
     "WhatsApp Image 2026-02-23 at 10.45.52 AM.jpeg",
     "WhatsApp Image 2026-02-23 at 10.45.35 AM.jpeg",
     "WhatsApp Image 2026-02-23 at 10.45.53 AM.jpeg",
-    "DSA Template.md",
-    "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
     "HLD/Design social media app like FB.md",
     "README.md",
     "LLD/Design Parking lot.md",
@@ -216,13 +218,11 @@
     "two-pointers",
     "WhatsApp Image 2026-02-21 at 4.01.19 PM.jpeg",
     "arrays/WRT - Sum of all subarrays.md",
-    "WhatsApp Image 2026-02-21 at 3.57.13 PM.jpeg",
     "arrays/WRT - Find in row wise and col wise sorted matrix.md",
     "arrays/WRT - Print spiral order.md",
     "arrays/Untitled 1.md",
     "tree/BST/WRT - Recover BST.md",
     "linkedlist/WRT - Sort List.md",
-    "stack/WRT - Max and min.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "tree/BST",
