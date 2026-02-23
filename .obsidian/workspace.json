@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backtracking/Word Search.md",
+                "file": "linkedlist/WRT - LFU Cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Word Search"
+              "title": "WRT - LFU Cache"
             }
           }
         ]
@@ -185,9 +185,12 @@
   },
   "active": "df884a56c7c9dcbc",
   "lastOpenFiles": [
-    "WhatsApp Image 2026-02-23 at 11.19.53 AM.jpeg",
+    "WhatsApp Image 2026-02-23 at 1.41.30 PM.jpeg",
+    "WhatsApp Image 2026-02-23 at 1.41.29 PM.jpeg",
     "DSA Template.md",
+    "linkedlist/WRT - LFU Cache.md",
     "backtracking/Word Search.md",
+    "WhatsApp Image 2026-02-23 at 11.19.53 AM.jpeg",
     "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
     "WhatsApp Image 2026-02-23 at 10.45.52 AM.jpeg",
     "WhatsApp Image 2026-02-23 at 10.45.35 AM.jpeg",
@@ -205,7 +208,6 @@
     "WhatsApp Image 2026-02-22 at 6.14.23 PM (1).jpeg",
     "WhatsApp Image 2026-02-22 at 6.14.23 PM.jpeg",
     "WhatsApp Image 2026-02-22 at 6.14.22 PM (1).jpeg",
-    "WhatsApp Image 2026-02-22 at 6.14.22 PM.jpeg",
     "dp/2D DP/WRT- Max Square Possible.md",
     "HLD",
     "stack/Max Frequency Stack.md",
@@ -216,13 +218,11 @@
     "two-pointers/Check Pair Sum.md",
     "arrays/WRT - Sum of all submatrices.md",
     "two-pointers",
-    "WhatsApp Image 2026-02-21 at 4.01.19 PM.jpeg",
     "arrays/WRT - Sum of all subarrays.md",
     "arrays/WRT - Find in row wise and col wise sorted matrix.md",
     "arrays/WRT - Print spiral order.md",
     "arrays/Untitled 1.md",
     "tree/BST/WRT - Recover BST.md",
-    "linkedlist/WRT - Sort List.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "tree/BST",
