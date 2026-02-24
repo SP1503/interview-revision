@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linkedlist/WRT - LFU Cache.md",
+                "file": "backtracking/WRT - Generate Permutation II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WRT - LFU Cache"
+              "title": "WRT - Generate Permutation II"
             }
           }
         ]
@@ -185,13 +185,30 @@
   },
   "active": "df884a56c7c9dcbc",
   "lastOpenFiles": [
+    "WhatsApp Image 2026-02-24 at 8.44.34 AM.jpeg",
+    "WhatsApp Image 2026-02-24 at 8.44.33 AM (1) 1.jpeg",
+    "WhatsApp Image 2026-02-24 at 8.44.33 AM (1).jpeg",
+    "WhatsApp Image 2026-02-24 at 8.44.33 AM.jpeg",
+    "DSA Template.md",
+    "backtracking/WRT - Generate Permutation II.md",
+    "backtracking/WRT - Generate Permutations.md",
+    "Untitled 4.md",
+    "Untitled",
+    "two-pointers/WRT- Longest palindromic substring.md",
+    "linkedlist/WRT - LRU Cache.md",
+    "heaps/WRT - Find K closest elements.md",
+    "heaps/WRT - Find Running Median.md",
+    "greedy/Meeting Rooms.md",
+    "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
+    "stack/Nearest Smallest Element.md",
+    "binary-search/WRT - Search in Rotated Sorted Array.md",
+    "binary-search/WRT- Single Element in Array.md",
+    "linkedlist/Reverse Linked List.md",
+    "linkedlist/WRT - LFU Cache.md",
     "WhatsApp Image 2026-02-23 at 1.41.30 PM.jpeg",
     "WhatsApp Image 2026-02-23 at 1.41.29 PM.jpeg",
-    "DSA Template.md",
-    "linkedlist/WRT - LFU Cache.md",
     "backtracking/Word Search.md",
     "WhatsApp Image 2026-02-23 at 11.19.53 AM.jpeg",
-    "graph/DFS/WRT - Minimum number of days to make island disconnect.md",
     "WhatsApp Image 2026-02-23 at 10.45.52 AM.jpeg",
     "WhatsApp Image 2026-02-23 at 10.45.35 AM.jpeg",
     "WhatsApp Image 2026-02-23 at 10.45.53 AM.jpeg",
@@ -204,25 +221,9 @@
     "HLD/Design Notification System.md",
     "HLD/Design rate limiter.md",
     "WhatsApp Image 2026-02-22 at 6.14.23 PM (3).jpeg",
-    "WhatsApp Image 2026-02-22 at 6.14.23 PM (2).jpeg",
-    "WhatsApp Image 2026-02-22 at 6.14.23 PM (1).jpeg",
-    "WhatsApp Image 2026-02-22 at 6.14.23 PM.jpeg",
-    "WhatsApp Image 2026-02-22 at 6.14.22 PM (1).jpeg",
     "dp/2D DP/WRT- Max Square Possible.md",
     "HLD",
-    "stack/Max Frequency Stack.md",
-    "two-pointers/Container with most waters.md",
-    "two-pointers/Subarray sum equals K.md",
-    "two-pointers/Find count of pairs with diff.md",
-    "two-pointers/Find pair sum count.md",
-    "two-pointers/Check Pair Sum.md",
-    "arrays/WRT - Sum of all submatrices.md",
     "two-pointers",
-    "arrays/WRT - Sum of all subarrays.md",
-    "arrays/WRT - Find in row wise and col wise sorted matrix.md",
-    "arrays/WRT - Print spiral order.md",
-    "arrays/Untitled 1.md",
-    "tree/BST/WRT - Recover BST.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "tree/BST",
@@ -231,7 +232,6 @@
     "queues",
     "amazon-DSA/LLD",
     "amazon-DSA/DSA",
-    "binary-search",
-    "amazon-DSA/DSA/greedy"
+    "binary-search"
   ]
 }
