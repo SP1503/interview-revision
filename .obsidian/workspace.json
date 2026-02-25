@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HLD/Design Ticket Master.md",
+                "file": "HLD/Design Large file storage like S3 or HDFS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design Ticket Master"
+              "title": "Design Large file storage like S3 or HDFS"
             }
           }
         ]
@@ -185,6 +185,15 @@
   },
   "active": "df884a56c7c9dcbc",
   "lastOpenFiles": [
+    "Screenshot 2026-02-25 at 5.34.02 PM.png",
+    "Screenshot 2026-02-25 at 5.15.29 PM.png",
+    "HLD/Design Rate Limiter.md",
+    "HLD/Design Large file storage like S3 or HDFS.md",
+    "HLD/Design Ticket Master.md",
+    "HLD/Design Notification System.md",
+    "HLD/Design Caching System.md",
+    "HLD/Design social media app like FB.md",
+    "HLD/Design Ride Sharing System.md",
     "Screenshot 2026-02-25 at 8.42.21 AM.png",
     "WhatsApp Image 2026-02-25 at 8.25.59 AM.jpeg",
     "Screenshot 2026-02-25 at 8.20.31 AM.png",
@@ -192,10 +201,6 @@
     "concurrency/Merge Sort using threads.md",
     "concurrency/Producer and Consumer Problem.md",
     "concurrency/Ways to avoid concurrency issue.md",
-    "HLD/Design Ticket Master.md",
-    "HLD/Design rate limiter.md",
-    "HLD/Design Notification System.md",
-    "HLD/Design Caching System.md",
     "backtracking/WRT - Generate Permutation II.md",
     "WhatsApp Image 2026-02-24 at 8.44.34 AM.jpeg",
     "WhatsApp Image 2026-02-24 at 8.44.33 AM (1) 1.jpeg",
@@ -217,11 +222,6 @@
     "linkedlist/Reverse Linked List.md",
     "linkedlist/WRT - LFU Cache.md",
     "WhatsApp Image 2026-02-23 at 1.41.30 PM.jpeg",
-    "WhatsApp Image 2026-02-23 at 1.41.29 PM.jpeg",
-    "backtracking/Word Search.md",
-    "WhatsApp Image 2026-02-23 at 11.19.53 AM.jpeg",
-    "HLD/Design social media app like FB.md",
-    "README.md",
     "HLD",
     "two-pointers",
     "Untitled 1.canvas",
