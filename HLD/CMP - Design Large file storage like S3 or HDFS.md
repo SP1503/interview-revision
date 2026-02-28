@@ -1,5 +1,4 @@
-
-### Overview:
+### System Overview:
 - Why large storage when DB is present?
 	- We can store large file that requires no updates and can be stored as dump. Pointed updates wont happen. No update = No indexing
 	- Hence frequently accessing dump files can be stored in CDN with geographical edge servers. 

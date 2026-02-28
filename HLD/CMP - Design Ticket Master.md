@@ -192,7 +192,7 @@
 			- Caching the event information in redis cache.
 3. How to have good user experience during high demand?
 	- With popular event the loaded seat maps will be stale in short time as the ticket booking is more fast.
-	- Good solutiuon: Introducing SSE real time seat updates, unidirectional
+	- Good solution: Introducing SSE real time seat updates, unidirectional
 	- GreatSolution: 
 		- Implementing an admin enabled virtual queue manages user access in high demand time
 		- User request to see the booking page
@@ -205,3 +205,4 @@
 5. How to speed up the frequently repeated search queries?
 	1. Good: We can have Cache layer on top of the elastic search. AWS open elastic search provides node query caching automatically that can be used to reduce load in the elastic search.
 	2. Great: Have CDN for storing popular search results in it. It is fast as it is geographically available edge servers.
+![[Screenshot 2026-02-27 at 12.55.10 PM.png]]
