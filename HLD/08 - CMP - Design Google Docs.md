@@ -1,4 +1,21 @@
-
+#Freshworks #Barraiser 
+## Challenges:
+- **Real time update of concurrent users of single document:**
+	- Web socket for bidirectional communication between concurrent clients.
+	- Operational Transformation: We can use to apply operations when two concurrent client makes changes at same position that can cause different outcomes.
+	- Client changes applies first in client to provide realtime change, then only server changes. Hence we need Operational transformation in client side as well.
+	- Can store this in in-memory of document service to reduce the latency and since all the clients are connected with same document service it is easy to manage and revalidate the connection availability.
+- **Scaling to 1M of requests:**
+	- We can manage the hash ring configuration using the apache zookeeper to know which document service responsible for which document id.
+- **Storage scaling for 50TB documents:**
+	- Here we are storing operations in Database service we use cassandra DB for append on logs configurations.
+	- Cassandra is suggested for fast append only writes partitioned by document Id.
+	- To keep storage under control we can compact the operations.
+		- When the document is not having any connection, we can do compact.
+		- When the last client disconnects we can 
+			- Take all the existing operations and offload them into a separate process of compaction.
+			- Write the resulting operation to the DB under new document versionID
+			- Flip the document versionId in the document Metadata DB.
 ## System Overview:
 - Google Docs is a web based collaborative document editor.
 - User can create document s and edit those collaboratively in real time.

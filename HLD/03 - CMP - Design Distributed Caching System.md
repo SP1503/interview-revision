@@ -1,3 +1,28 @@
+#Freshworks #Barraiser 
+
+## Challenges:
+- Scaling reads: Hot key problem when trying to read same key by multiple users, Usinf suffix with multiple shards.
+- **Highly available and Fault tolerance:** Master slave replication can work, But here read throughput = write throughput, Hence we can change to multi master replication with gossip protocol for data consistency.
+- **Scalable read and write:** 
+	- Can introduce sharding as 1 machine = 24GB, we need 1TB storage. 1TB / 25GB = 43 with buffer 50 nodes we need to store 1 TB.
+	- **Hot key problem:**
+		- Hot Read:
+			- Having read replicas but data redundancy is high
+			- Have copies of hot keys in different shards.
+				- Read: read from every shard and aggregate.
+					- user:123#1 -> Node 1
+					- user:123#2 -> Node 2
+					- user:123#3 -> Node 3
+				- Write: System update all the copies to remain consistent.
+				- The above approach only for hot read. Hot for both read and write this approach wont work.
+		- Hot Write:
+			- Write Batching + Aggregation: Write the same key only one for 100ms.
+				- Effective for counters, metrics where final state matters more than individual update.
+				- Tradeoff: Batching delay and write visibility.
+				- Not suite for immediate write visibility.
+			- Suffix hot key write: Add suffix and write in any node using consistent hashing, But increased complexity in reading the same data from different shards.
+- **To reduce latency between different redis shard:** Connection polling
+- **Equal load distribution:** Consistent hashing. Results in equal load distribution and minimal load transfer.
 ## System Overview:
 - Stores data as key value pair in memory across multiple machines in a network.
 - Can do horizontal scaling across many nodes to handle massive workloads

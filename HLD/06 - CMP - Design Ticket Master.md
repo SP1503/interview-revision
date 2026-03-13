@@ -1,10 +1,44 @@
+#Freshworks #Round2
+
+## Challenges:
+- **Dealing with contention:** two users trying to book same last ticket available
+- **Scaling reads:** Reading the events with text based searches and popular event searches.
+- **Real time updates:** Sending real time available ticket status to the clients.
+- **How to reserve and book ticket with realtime update about that to other users.**
+	- Bad Solution: Long running database locks: 
+		- Not efficient DB locks are meant for only ms and not for minutes.
+		- Need mechanism to trigger unlocking
+	- ==Status update as reserved and set Expirations CRON==:
+		- When user selects ticket we can set status as RESERVED with expiry.
+		- A CRON job can run to change the expired reserved status of ticket whose booking is not successful.
+			- Introducing delta time: Reservation happens by t9 and CRON job periodically got triggered by t11 in this can 2T is a delay time where some customers can be lost.
+		- ==Reservation status update with read change==: 
+			- While reading the ticket not only read available tickets but also read tickets whose tickets are in reserved state and expired.
+			- Increases the read latency for tickets available.
+		- ==Distributed locks==:
+			- When a tickets is selected add that ticketId in cache with TTL of expiry,
+			- When checking for available ticket remove the tickets that are in the cache.
+			- Redis operations are atomic.
+- **Scaling the view API**
+	- caching the event details that are accessed frequently.
+	- Round Robin algorithm to distribute the load
+	- Horizontal scaling to improve the server throughput.
+- **How to manage the ticket updation status with popular events:**
+	- Great Solution is we can have SSE connection with server to client and we can push the booking updates to the client. 
+	- Since this is unidirectional, we can opt for SSE.
+- **Improve the text based search:** 
+	- We can implement Elastic search full text search engine.
+	- To maintain the Sync we can use the CDC change data capture for realtime data synchronisation.
+	- We can enable fuzzy search functionality as well.
+- **Improve the frequently repeated search queries and reduce load on our search**
+	- Elastic search have inbuilt caching techniques.
+	- We can use the CDN as well to cache the event informations.
 ## Understanding the problem:
 - Ticket master is an online platform that allows users to purchase tickets for 
 	- concerts
 	- sports events
 	- theaters
 	- other live entertainments
-
 ## (MVP) Functional Requirements:
 - User should be able to search for events
 - User should be able to view an event information

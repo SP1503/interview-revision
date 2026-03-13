@@ -1,4 +1,11 @@
 ### DDOS: Distributed Denial of service
+## Overview of system
+- System used to allow only x number of requests from a user within y timeframe.
+- This helps to restrict the total number of requests a user can make within the given timeframe.
+- The rest of the requests are being restrict with response code as 429 says too many requests.
+- Helps in preventing
+	- DDOS 
+	- servers gets overwhelmed by the requests.
 ## MVP Functional Requirements:
 - Limit based on some criteria
 - Limits and criteria should be configurable

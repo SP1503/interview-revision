@@ -8,29 +8,45 @@
         "type": "tabs",
         "children": [
           {
+            "id": "0516b14168ff0ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLD/design-patterns/BEH - Strategy Design Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BEH - Strategy Design Pattern"
+            }
+          },
+          {
             "id": "df884a56c7c9dcbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HLD/CMP - Design Facebook Newsfeed.md",
+                "file": "heaps/Find K th largest Element.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMP - Design Facebook Newsfeed"
+              "title": "Find K th largest Element"
             }
           },
           {
-            "id": "0516b14168ff0ab0",
+            "id": "b58c363306f4a7fa",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "HLD/Freshworks Questions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "Freshworks Questions"
             }
           },
           {
@@ -210,45 +226,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "0516b14168ff0ab0",
+  "active": "3dec8c6e907e78cf",
   "lastOpenFiles": [
-    "Screenshot 2026-02-27 at 11.18.21 PM.png",
-    "Screenshot 2026-02-27 at 11.05.53 PM.png",
-    "Screenshot 2026-02-27 at 10.38.25 PM.png",
-    "Screenshot 2026-02-27 at 10.29.02 PM.png",
-    "Screenshot 2026-02-27 at 10.12.45 PM.png",
-    "HLD template.md",
-    "HLD/CMP - Design Facebook Newsfeed.md",
-    "HLD/Design Notification Service.md",
+    "HLD/01  - CMP - Design Rate Limiter.md",
     "HLD/Freshworks Questions.md",
-    "HLD/CMP - Design URL shortner.md",
-    "HLD/CMP - Design Ticket Master.md",
-    "HLD/CMP - Design Distributed Caching System.md",
-    "HLD/CMP - Design Distributed Logging System.md",
-    "HLD/CMP - Design Google Docs.md",
-    "HLD/CMP - Design Large file storage like S3 or HDFS.md",
-    "HLD/CMP - Design Rate Limiter.md",
-    "Screenshot 2026-02-27 at 3.51.47 PM.png",
-    "Screenshot 2026-02-27 at 3.33.39 PM.png",
-    "Screenshot 2026-02-27 at 1.52.49 PM.png",
-    "Screenshot 2026-02-27 at 1.47.24 PM.png",
-    "Screenshot 2026-02-27 at 1.45.35 PM.png",
-    "Screenshot 2026-02-27 at 1.45.14 PM.png",
-    "HLD/Design Notification System.md",
+    "HLD/07 - CMP - Design Uber.md",
+    "HLD/Design Dropbox.md",
+    "HLD/03 - CMP - Design Distributed Caching System.md",
+    "HLD/05 - CMP - Design Facebook Newsfeed.md",
+    "HLD/06 - CMP - Design Ticket Master.md",
+    "HLD/09 - CMP - Design Large file storage like S3 or HDFS.md",
+    "HLD/08 - CMP - Design Google Docs.md",
+    "HLD/04 - CMP - Design Distributed Logging System.md",
+    "Screenshot 2026-03-07 at 7.42.26 PM.png",
+    "Screenshot 2026-03-07 at 6.55.21 PM.png",
+    "Screenshot 2026-03-07 at 6.54.42 PM.png",
+    "Screenshot 2026-03-07 at 6.52.47 PM.png",
+    "HLD template.md",
+    "HLD/10 - Design Top K treading videos.md",
+    "Screenshot 2026-03-06 at 3.18.02 PM.png",
+    "HLD/Design Notification Service.md",
+    "linkedlist/WRT - Remove Loop From Linked List.md",
+    "two-pointers/WRT - Container with most waters.md",
+    "WhatsApp Image 2026-03-06 at 10.25.21 AM.jpeg",
     "DSA Template.md",
-    "HLD/Design social media app like FB.md",
-    "HLD/Design Ride Sharing System.md",
-    "concurrency/Merge Sort using threads.md",
-    "concurrency/Producer and Consumer Problem.md",
-    "concurrency/Ways to avoid concurrency issue.md",
-    "backtracking/WRT - Generate Permutation II.md",
-    "backtracking/WRT - Generate Permutations.md",
-    "Untitled 4.md",
-    "Untitled",
+    "two-pointers/Subarray sum equals K.md",
     "two-pointers/WRT- Longest palindromic substring.md",
-    "linkedlist/WRT - LRU Cache.md",
-    "heaps/WRT - Find K closest elements.md",
-    "heaps/WRT - Find Running Median.md",
+    "two-pointers/Find pair sum count.md",
+    "two-pointers/Find count of pairs with diff.md",
+    "two-pointers/Check Pair Sum.md",
+    "math/WRT - Sorted permutation rank.md",
+    "WhatsApp Image 2026-03-05 at 5.13.59 PM.jpeg",
+    "math/WRT - Excel column name.md",
+    "WhatsApp Image 2026-03-05 at 4.32.28 PM.jpeg",
+    "math",
+    "Screenshot 2026-03-05 at 12.45.30 PM.png",
+    "Screenshot 2026-03-05 at 11.18.11 AM.png",
+    "HLD/02 - CMP - Design URL shortner.md",
+    "HLD/Rate limiter.md",
+    "HLD/Design social media app like FB.md",
     "HLD",
     "two-pointers",
     "Untitled 1.canvas",

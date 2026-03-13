@@ -107,14 +107,14 @@
 		- To show upload progress
 		- If upload gets interrupted then need not to upload from 0.
 	- Now the file is stored in HDD of app server.
-	- Now the client of HDFS that we have in out app server will send the data from HDD to HDFS server as continuous stream of data.
+	- Now the client of HDFS that we have in our app server will send the data from HDD to HDFS server as continuous stream of data.
 	- This HDFS server will transform this continuous stream of data into chunks and will send it to the Data nodes using node naming server.
-- What if there is a network partition in between the backend app server to the HDFS app server?
+- **What if there is a network partition in between the backend app server to the HDFS app server?**
 	- File upload will fail and the upload will rollback and start from scratch.
-- What if the upload to data nodes failed for a particular buffer?
+- **What if the upload to data nodes failed for a particular buffer?**
 	- Retry mechanism is implemented so that multiple retires will take place.
 	- Then we try to update to different data nodes.
-- What if the size of the file is ood number ?
+- **What if the size of the file is ood number ?**
 	- We can divide and the last chunk can have small value.
 	- Example:
 		- File size = 200 MB

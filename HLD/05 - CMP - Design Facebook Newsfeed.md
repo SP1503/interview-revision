@@ -1,4 +1,15 @@
+#Freshworks #Round2 
 
+## Challenges:
+- **Scaling reads:** Scaling the reads for users who following many users and users whose post is being read by many followers.
+- **Fan out reads**: Read request to multiple source
+- **Fan out writes**: Writes post to multiple source
+	- When user creates post have a entry of followerId, postId, userId so that when followers need feed we can compute feed from this table.
+- **Scaling writes:** User with million of followers
+	- Queues + async workers: We can have a queue to all the write request and the write workers can write those in DB.
+	- Now DB is a bottleneck: For influencers we don't follow the queue approach instead when a user requests for feed we will get the normal posts from precomputed table and get posts from influencers and merge it. Async + hybrid approach.
+- **Reading influencers post, hot key in DB:** Have it in cache so DB wont get high read load.
+- **Not hot key problem in cache:** Replication can work here.
 ## System Overview:
 - Facebook news feed which shows recent posts of other users the current user follow.
 ## Functional Requirements:
